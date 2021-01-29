@@ -96,13 +96,14 @@ nav ul li a:hover, a.active{
 .inp-width{
     min-width: 300px;
 }
+
 .plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
-    padding: 2px;
-    margin: 10px 5px 0px 0px;
-    word-spacing: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    margin-top: 30px;
 }
+
 .booking-form .inputs{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -116,9 +117,28 @@ nav ul li a:hover, a.active{
     border: none;
     color: #fff;
     font-weight: 500;
-    background-color:  #E33741;
+    background-color: crimson;
 }
 .amount{
     display: flex;
     justify-content: space-between;
 }
+h5{
+    padding: 0 10px;
+}
+#transaction-area{
+    display: none;
+    background-color: forestgreen;
+}
+
+#confirm-area{    
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: rgb(24, 24, 24);
+    color: ghostwhite;
+}
+
+
