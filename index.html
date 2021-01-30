@@ -66,11 +66,12 @@
                         <input id="firstclass-count" type="text" class="form-control text-left" value="0">
                     </div>
                     <div class="plus-minus-btn">
-                        <button onclick="handleTicketCount('firstclass',false)" class="btn btn-default"><i
+                        <button onclick="handleTicketCount('firstclass',false)" id="custom-btn" class="btn btn-default"><i
                                 class="fas fa-minus"></i></button>
-                        <h5 id="firstclass-total">$00</h5>
-                        <button onclick="handleTicketCount('firstclass',true)" class="btn btn-default"><i
+                        
+                        <button onclick="handleTicketCount('firstclass',true)" id="custom-btn" class="btn btn-default"><i
                                 class="fas fa-plus"></i></button>
+                            <h5 id="firstclass-total">$00</h5>         
                     </div>
                 </div>
                 <div class="input-group f-class">
@@ -79,11 +80,13 @@
                         <input id="ecoclass-count" type="text" class="form-control text-left" value="0">
                     </div>
                     <div class="plus-minus-btn">
-                        <button onclick="handleTicketCount('ecoclass',false)" class="btn btn-default"><i
+                        <button onclick="handleTicketCount('ecoclass',false)" id="custom-btn"  class="btn btn-default"><i
                                 class="fas fa-minus"></i></button>
-                        <h5 id="ecoclass-total">$00</h5>
-                        <button onclick="handleTicketCount('ecoclass',true)" class="btn btn-default"><i
+                        
+                        <button onclick="handleTicketCount('ecoclass',true)" id="custom-btn"  class="btn btn-default"><i
                                 class="fas fa-plus"></i></button>
+                    
+                        <h5 id="ecoclass-total">$00</h5>
                     </div>
                 </div>
 
@@ -130,7 +133,7 @@
             </div>
         </div>      
     </div>
-    
+
     <!--Thank You-->
 
     <script>

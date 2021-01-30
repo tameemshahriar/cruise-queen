@@ -71,6 +71,7 @@ nav ul li a:hover, a.active{
 .booking-form  .input-group{
     margin: 10px 0;
 }
+
 .booking-form  .calculations{
     margin: 10px 0;
 }
@@ -100,8 +101,16 @@ nav ul li a:hover, a.active{
 .plus-minus-btn{
     display: flex;
     justify-content: space-evenly;
-    margin-right: 50px;
+    width: 200px;
     margin-top: 30px;
+}
+
+#custom-btn {
+    color: rgb(59, 59, 255);
+    padding: 5px;
+    background-color: #F3F5FF ;
+    width: 40px;
+    margin: 10px;
 }
 
 .booking-form .inputs{
@@ -117,18 +126,20 @@ nav ul li a:hover, a.active{
     border: none;
     color: #fff;
     font-weight: 500;
-    background-color: crimson;
+    background-color:  #E33741;;
 }
+
+
 .amount{
     display: flex;
     justify-content: space-between;
 }
 h5{
     padding: 0 10px;
+    padding-top: 10px;
 }
 #transaction-area{
     display: none;
-    background-color: forestgreen;
 }
 
 #confirm-area{    
